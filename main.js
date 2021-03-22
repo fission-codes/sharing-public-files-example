@@ -63,8 +63,8 @@ webnative.initialize(fissionInit).then(async state => {
         const history = await file.history.list();
         history.forEach(async versionMetadata => {
           const version = await file.history.back(versionMetadata.delta);
-          const archivalLink = `https://ipfs.runfission.com/ipfs/${version.cid}/userland`
-          prependVersion(archivalLink);
+          const versionedLink = `https://ipfs.runfission.com/ipfs/${version.cid}/userland`
+          prependVersion(versionedLink);
         });
       }
 
@@ -98,8 +98,8 @@ webnative.initialize(fissionInit).then(async state => {
           const history = await file.history.list();
           if (history.length > 0) {
             const backOneVersion = await file.history.back(-1);
-            const archivalLink = `https://ipfs.runfission.com/ipfs/${backOneVersion.cid}/userland`;
-            prependVersion(archivalLink);
+            const versionedLink = `https://ipfs.runfission.com/ipfs/${backOneVersion.cid}/userland`;
+            prependVersion(versionedLink);
           }
         }
       });
