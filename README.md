@@ -1,5 +1,9 @@
 # Sharing public files
 
+[![Built by FISSION](https://img.shields.io/badge/⌘-Built_by_FISSION-purple.svg)](https://fission.codes)
+[![Discord](https://img.shields.io/discord/478735028319158273.svg)](https://discord.gg/zAQBDEq)
+[![Discourse](https://img.shields.io/discourse/https/talk.fission.codes/topics)](https://talk.fission.codes)
+
 The repository demonstrates three techniques for generating links to public files stored in the webnative filesystem:
 
 - Public links always link to the latest version of a file
