@@ -14,4 +14,4 @@ This demo is live at: https://benevolent-senior-pink-yeti.fission.app/
 
 ## Run
 
-Run `http-server` or another simple web server in the root of this project. No build or package installation needed.
+Run [http-server](https://www.npmjs.com/package/http-server) or another simple web server in the root of this project. No build or package installation needed.
