@@ -33,11 +33,6 @@ webnative.initialize(fissionInit).then(async state => {
 
       fs = state.fs;
 
-      if (!await fs.exists('public/examples')) {
-        await fs.mkdir('public/examples');
-        await fs.publish();
-      }
-
       if (await fs.exists('public/examples/shared.txt')) {
 
         /**
